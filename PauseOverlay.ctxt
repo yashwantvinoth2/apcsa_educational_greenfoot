@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PauseOverlay
+comment0.text=\r\n\ Full-screen\ pause\ overlay\:\ dims\ background,\ shows\ a\ centered\ semi-transparent\ panel,\r\n\ a\ title,\ a\ wrapped\ fact,\ a\ lives\ line,\ and\ a\ prompt.\r\n
+comment1.params=worldW\ worldH\ title\ fact\ livesLine\ prompt
+comment1.target=PauseOverlay(int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ buildImage()
+comment3.params=canvas\ img\ centerX\ topY
+comment3.target=void\ drawCentered(greenfoot.GreenfootImage,\ greenfoot.GreenfootImage,\ int,\ int)
+comment4.params=text\ fontSize\ maxWidth
+comment4.target=java.util.List\ wrapByPixelWidth(java.lang.String,\ int,\ int)
+comment4.text=Wrap\ text\ by\ pixel\ width\ using\ GreenfootImage\ width\ (no\ FontMetrics).
+comment5.params=img\ x\ y\ w\ h\ r
+comment5.target=void\ fillRoundRect(greenfoot.GreenfootImage,\ int,\ int,\ int,\ int,\ int)
+comment5.text=Rounded\ rectangle\ fill\ using\ ovals\ +\ rects\ (portable\ across\ Greenfoot\ versions).
+comment6.params=v\ lo\ hi
+comment6.target=int\ clamp(int,\ int,\ int)
+numComments=7

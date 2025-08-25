@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Car
+comment1.params=
+comment1.target=int\ getLives()
+comment2.params=
+comment2.target=boolean\ takeDamage()
+comment2.text=\r\n\ Called\ by\ enemies\ when\ they\ hit\ the\ player.\r\n\ Returns\ true\ if\ the\ player\ died\ on\ this\ hit.\r\n
+comment3.params=
+comment3.target=void\ act()
+numComments=4
